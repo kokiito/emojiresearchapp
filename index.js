@@ -3,9 +3,9 @@
 //var src[5];
 //src[5]={0,0,0,0,0};
 
-var src1;
-var src2;
-var src3;
+var src1="./img/1.svg";
+var src2="./img/2.svg";
+var src3="⬆️";
 
 function LinkClick1(param) {
   var elem = document.getElementById("image01");
@@ -46,8 +46,14 @@ function ViewGIF() {
   var elem = document.getElementById("video");
 
 
-  if(src1== "./img/1.svg"&& src2 =="./img/2.svg" && src3=="⬆️" ){
+  if(src1== "./img/4.svg"&& src2 =="./img/1.svg" && src3=="⬆️" ){
     elem.src = "./video/test.mov";
+  }
+  else if(src1== "./img/4.svg"&& src2 =="./img/1.svg" && src3=="⬆️" ){
+    elem.src = "./video/test.mov";
+  }
+  else{
+    elem.src = "";
   }
   // else if (true) {
   //
